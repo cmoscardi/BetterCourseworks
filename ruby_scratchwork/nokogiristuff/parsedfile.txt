@@ -1,0 +1,69 @@
+<td bgcolor="#ffffff" nowrap class="courselisting">
+		 
+		<a href="framesets/frameset.cfm?user_key=51146312&amp;whois=0007F23E-AF63-1F2C-9AE5839950FB8000&amp;iruyxd=128657130&amp;lkjrty=93&amp;selected=syllabus" onmouseover="self.status='Enter COMS W3261.001.2012.1'; return true" onmouseout="self.status=''">COMS W3261.001.2012.1</a>
+		
+		<br>
+</td><td bgcolor="#ffffff" class="courselisting"> COMPUTER SCIENCE THEORY
+			
+			</td><td bgcolor="#ffffff" class="courselisting">
+			
+			Tal G.  Malkin			
+			</td><td bgcolor="#ffffff" nowrap class="courselisting">
+		 
+		<a href="framesets/frameset.cfm?user_key=51146312&amp;whois=0007F23E-AF63-1F2C-9AE5839950FB8000&amp;iruyxd=128655177&amp;lkjrty=93&amp;selected=syllabus" onmouseover="self.status='Enter COMS W3137.001.2012.1'; return true" onmouseout="self.status=''">COMS W3137.001.2012.1</a>
+		
+		<br>
+</td><td bgcolor="#ffffff" class="courselisting"> DATA STRUCTURES/ALGORITHMS
+			
+			</td><td bgcolor="#ffffff" class="courselisting">
+			
+			Peter K.  Allen			
+			</td><td bgcolor="#ffffff" nowrap class="courselisting">
+		 
+		<a href="framesets/frameset.cfm?user_key=51146312&amp;whois=0007F23E-AF63-1F2C-9AE5839950FB8000&amp;iruyxd=128401287&amp;lkjrty=93&amp;selected=syllabus" onmouseover="self.status='Enter HIST X3116.001.2012.1'; return true" onmouseout="self.status=''">HIST X3116.001.2012.1</a>
+		
+		<br>
+</td><td bgcolor="#ffffff" class="courselisting"> FILTHY LUCRE: A HIST OF MONEY
+			
+			</td><td bgcolor="#ffffff" class="courselisting">
+			
+			Carl C.  Wennerlind			
+			</td><td bgcolor="#ffffff" nowrap class="courselisting">
+		 
+		<a href="https://newcourseworks.columbia.edu/portal/site/MECEE3998_003_2012_1" target="_blank">MECE E3998.003.2012.1</a><img src="../images/gui/syllframe/new.GIF" width="30" height="30" alt="NCW course" border="0" onmouseover="This course linked to New Courseworks" align="absmiddle"><br>
+</td><td bgcolor="#ffffff" class="courselisting"> PROJECTS IN MECH ENGINEERING
+			
+			</td><td bgcolor="#ffffff" class="courselisting">
+			
+			Fred R.  Stolfi			
+			</td><td bgcolor="#ffffff" nowrap class="courselisting">
+		 
+		<a href="framesets/frameset.cfm?user_key=51146312&amp;whois=0007F23E-AF63-1F2C-9AE5839950FB8000&amp;iruyxd=126586950&amp;lkjrty=93&amp;selected=syllabus" onmouseover="self.status='Enter MATH W4053.001.2012.1'; return true" onmouseout="self.status=''">MATH W4053.001.2012.1</a>
+		
+		<br>
+</td><td bgcolor="#ffffff" class="courselisting"> INTRO TO ALGEBRAIC TOPOLOGY
+			
+			</td><td bgcolor="#ffffff" class="courselisting">
+			
+			Adam  Knapp			
+			</td><td bgcolor="#ffffff" nowrap class="courselisting">
+		 
+		<a href="framesets/frameset.cfm?user_key=51146312&amp;whois=0007F23E-AF63-1F2C-9AE5839950FB8000&amp;iruyxd=126585648&amp;lkjrty=93&amp;selected=syllabus" onmouseover="self.status='Enter MATH W4042.001.2012.1'; return true" onmouseout="self.status=''">MATH W4042.001.2012.1</a>
+		
+		<br>
+</td><td bgcolor="#ffffff" class="courselisting"> INTRO TO MODERN ALGEBRA II
+			
+			</td><td bgcolor="#ffffff" class="courselisting">
+			
+			Robert  Friedman			
+			</td><td bgcolor="#ffffff" nowrap class="courselisting">
+		 
+		<a href="framesets/frameset.cfm?user_key=51146312&amp;whois=0007F23E-AF63-1F2C-9AE5839950FB8000&amp;iruyxd=125670993&amp;lkjrty=93&amp;selected=syllabus" onmouseover="self.status='Enter COCI C1102.056.2012.1'; return true" onmouseout="self.status=''">COCI C1102.056.2012.1</a>
+		
+		<br>
+</td><td bgcolor="#ffffff" class="courselisting"> CONTEMP WESTRN CIVILIZATION I
+			
+			</td><td bgcolor="#ffffff" class="courselisting">
+			
+			Roosevelt  Montas			
+			</td>

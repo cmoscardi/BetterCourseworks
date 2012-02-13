@@ -1,0 +1,440 @@
+#<Mechanize::Page
+ {url
+  #<URI::HTTPS:0x00000003335d58 URL:https://courseworks.columbia.edu/cms/input/syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000>}
+ {meta_refresh}
+ {title "Courseworks: My Courses"}
+ {iframes}
+ {frames}
+ {links
+  #<Mechanize::Page::Link
+   "My Courses"
+   "syllframe.cfm?whois=00027197-B39E-1F2C-9AE5839950FB8000&user_key=51146476">
+  #<Mechanize::Page::Link "Help" "javascript:openHelpGen();">
+  #<Mechanize::Page::Link
+   "Logout"
+   "/cms/enter.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&loggingout=yes">
+  #<Mechanize::Page::Link
+   "Current Courses"
+   "syllframe.cfm?whois=00027197-B39E-1F2C-9AE5839950FB8000&user_key=51146476">
+  #<Mechanize::Page::Link
+   "Next Semester"
+   "mycrs/next_sem.cfm?whois=00027197-B39E-1F2C-9AE5839950FB8000&user_key=51146476">
+  #<Mechanize::Page::Link
+   "Past Courses"
+   "mycrs/past_sem.cfm?whois=00027197-B39E-1F2C-9AE5839950FB8000&user_key=51146476">
+  #<Mechanize::Page::Link
+   "Search Courses"
+   "mycrs/search.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000">
+  #<Mechanize::Page::Link
+   "User Information"
+   "mycrs/user_info.cfm?whois=00027197-B39E-1F2C-9AE5839950FB8000&user_key=51146476">
+  #<Mechanize::Page::Link
+   "My Libr. Reserves"
+   "https://www1.columbia.edu/sec-cgi-bin/cul/respac/respac">
+  #<Mechanize::Page::Link
+   "My Evaluations"
+   "mycrs/myeval.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000">
+  #<Mechanize::Page::Link
+   "COMS W3261.001.2012.1"
+   "framesets/frameset.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&iruyxd=51186170&lkjrty=37&selected=syllabus">
+  #<Mechanize::Page::Link
+   "COMS W3137.001.2012.1"
+   "framesets/frameset.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&iruyxd=51185393&lkjrty=37&selected=syllabus">
+  #<Mechanize::Page::Link
+   "HIST X3116.001.2012.1"
+   "framesets/frameset.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&iruyxd=51084383&lkjrty=37&selected=syllabus">
+  #<Mechanize::Page::Link
+   "MECE E3998.003.2012.1"
+   "https://newcourseworks.columbia.edu/portal/site/MECEE3998_003_2012_1">
+  #<Mechanize::Page::Link
+   "MATH W4053.001.2012.1"
+   "framesets/frameset.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&iruyxd=50362550&lkjrty=37&selected=syllabus">
+  #<Mechanize::Page::Link
+   "MATH W4042.001.2012.1"
+   "framesets/frameset.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&iruyxd=50362032&lkjrty=37&selected=syllabus">
+  #<Mechanize::Page::Link
+   "COCI C1102.056.2012.1"
+   "framesets/frameset.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&iruyxd=49998137&lkjrty=37&selected=syllabus">
+  #<Mechanize::Page::Link
+   "CourseWorks"
+   "https://newcourseworks.columbia.edu/welcome">
+  #<Mechanize::Page::Link
+   "Faculty Resources"
+   "https://newcourseworks.columbia.edu/welcome/faculty.html">
+  #<Mechanize::Page::Link
+   "Student Resouces"
+   "https://newcourseworks.columbia.edu/welcome/students.html">
+  #<Mechanize::Page::Link
+   "Piazza"
+   "javascript:openAnnounce2(25803,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25803">
+  #<Mechanize::Page::Link
+   "Piazza Board"
+   "javascript:openAnnounce2(25779,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25779">
+  #<Mechanize::Page::Link
+   "Homework 2 submission"
+   "javascript:openAnnounce2(25751,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25751">
+  #<Mechanize::Page::Link
+   "Office hours for this Thursday and Friday"
+   "javascript:openAnnounce2(25474,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25474">
+  #<Mechanize::Page::Link
+   "Office hours for this Thursday and Friday"
+   "javascript:openAnnounce2(25473,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25473">
+  #<Mechanize::Page::Link
+   "Office hours for this Thursday and Friday (Summary)"
+   "javascript:openAnnounce2(25456,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25456">
+  #<Mechanize::Page::Link
+   "Office Hours"
+   "javascript:openAnnounce2(25450,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25450">
+  #<Mechanize::Page::Link
+   "My office hours for this week and the next."
+   "javascript:openAnnounce2(25284,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25284">
+  #<Mechanize::Page::Link
+   "COMS W3203: HW4 returned in class tomorrow."
+   "javascript:openAnnounce2(25155,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25155">
+  #<Mechanize::Page::Link
+   "COMS W3203: HW4 returned in class tomorrow."
+   "javascript:openAnnounce2(25154,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25154">
+  #<Mechanize::Page::Link
+   "Office hours tomorrow."
+   "javascript:openAnnounce2(25134,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25134">
+  #<Mechanize::Page::Link
+   "Recounting Quiz2"
+   "javascript:openAnnounce2(25114,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25114">
+  #<Mechanize::Page::Link
+   "office hours"
+   "javascript:openAnnounce2(25106,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25106">
+  #<Mechanize::Page::Link
+   "QUIZ2 UPLOADED"
+   "javascript:openAnnounce2(25086,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25086">
+  #<Mechanize::Page::Link
+   "office hours 11/14/2011"
+   "javascript:openAnnounce2(25075,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25075">
+  #<Mechanize::Page::Link
+   "Changing my office hours tomorrow."
+   "javascript:openAnnounce2(24952,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24952">
+  #<Mechanize::Page::Link
+   "CS W3827 office hr location"
+   "javascript:openAnnounce2(24951,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24951">
+  #<Mechanize::Page::Link
+   "Changing office hour"
+   "javascript:openAnnounce2(24850,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24850">
+  #<Mechanize::Page::Link
+   "HW2"
+   "javascript:openAnnounce2(24827,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24827">
+  #<Mechanize::Page::Link
+   "office hours tomorrow"
+   "javascript:openAnnounce2(24763,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24763">
+  #<Mechanize::Page::Link
+   "office hours "
+   "javascript:openAnnounce2(24739,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24739">
+  #<Mechanize::Page::Link
+   "CSEE W3827: Office Hour Change"
+   "javascript:openAnnounce2(24725,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24725">
+  #<Mechanize::Page::Link
+   "QUIZ1 Facts:"
+   "javascript:openAnnounce2(24655,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24655">
+  #<Mechanize::Page::Link
+   "QUIZ1 Graded"
+   "javascript:openAnnounce2(24653,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24653">
+  #<Mechanize::Page::Link
+   "office hours 10/17"
+   "javascript:openAnnounce2(24519,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24519">
+  #<Mechanize::Page::Link
+   "Regarding HW1, and my OH this week."
+   "javascript:openAnnounce2(24506,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24506">
+  #<Mechanize::Page::Link
+   "My office hours for tomorrow is cancelled."
+   "javascript:openAnnounce2(24421,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24421">
+  #<Mechanize::Page::Link
+   "Office Hours 9/19/2011"
+   "javascript:openAnnounce2(24216,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24216">
+  #<Mechanize::Page::Link
+   "W3827 Office hour change for this week"
+   "javascript:openAnnounce2(24107,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24107">
+  #<Mechanize::Page::Link
+   "Office hour"
+   "javascript:openAnnounce2(23639,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=23639">
+  #<Mechanize::Page::Link
+   "COMS1004 Cancelled Office Hours"
+   "javascript:openAnnounce2(23608,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=23608">
+  #<Mechanize::Page::Link
+   "Office Hours Today"
+   "javascript:openAnnounce2(23607,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=23607">
+  #<Mechanize::Page::Link
+   "COMS1004 Office Hours Postpone"
+   "javascript:openAnnounce2(23594,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=23594">
+  #<Mechanize::Page::Link
+   "Change of OH again"
+   "javascript:openAnnounce2(23580,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=23580">
+  #<Mechanize::Page::Link
+   "Preponed TA hours & Updating Courseworks Grade"
+   "javascript:openAnnounce2(23529,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=23529">
+  #<Mechanize::Page::Link
+   "Change of OH this week"
+   "javascript:openAnnounce2(23520,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=23520">
+  #<Mechanize::Page::Link
+   "Office Hours Rescheduled"
+   "javascript:openAnnounce2(23433,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=23433">
+  #<Mechanize::Page::Link
+   "COMS W1004.001 - Office Hours"
+   "javascript:openAnnounce2(22986,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22986">
+  #<Mechanize::Page::Link
+   "COMS W1004.001 - Office Hours Cancelled"
+   "javascript:openAnnounce2(22968,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22968">
+  #<Mechanize::Page::Link
+   "COMS 1004 Office Hours TODAY"
+   "javascript:openAnnounce2(22869,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22869">
+  #<Mechanize::Page::Link
+   "COMS 1004 Office Hours"
+   "javascript:openAnnounce2(22861,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22861">
+  #<Mechanize::Page::Link
+   "COMS 1004 Office Hours"
+   "javascript:openAnnounce2(22826,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22826">
+  #<Mechanize::Page::Link
+   "COMS!004 Cancelled Office Hours"
+   "javascript:openAnnounce2(22643,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22643">
+  #<Mechanize::Page::Link
+   "My office hours are cancelled tomorrow"
+   "javascript:openAnnounce2(22639,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22639">
+  #<Mechanize::Page::Link
+   "OHs Wednesday Morning"
+   "javascript:openAnnounce2(22612,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22612">
+  #<Mechanize::Page::Link
+   "COMS 1004 TA hours (Disregard previous email)"
+   "javascript:openAnnounce2(22342,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22342">
+  #<Mechanize::Page::Link
+   "COMS 1004 Office Hours"
+   "javascript:openAnnounce2(22341,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22341">
+  #<Mechanize::Page::Link
+   "Office Hour Change"
+   "javascript:openAnnounce2(22114,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22114">
+  #<Mechanize::Page::Link
+   "TA Office Hours"
+   "javascript:openAnnounce2(21917,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=21917">
+  #<Mechanize::Page::Link
+   "files posted"
+   "javascript:openAnnounce2(21214,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=21214">
+  #<Mechanize::Page::Link
+   "files posted"
+   "javascript:openAnnounce2(20993,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=20993">
+  #<Mechanize::Page::Link
+   "Midterm Key"
+   "javascript:openAnnounce2(20550,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=20550">
+  #<Mechanize::Page::Link
+   "Quiz and WIA keys"
+   "javascript:openAnnounce2(20196,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=20196">
+  #<Mechanize::Page::Link
+   "Key for Astro 1 WIA"
+   "javascript:openAnnounce2(19853,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=19853">
+  #<Mechanize::Page::Link
+   "BB Quiz Key"
+   "javascript:openAnnounce2(19672,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=19672">
+  #<Mechanize::Page::Link
+   "term assignment info"
+   "javascript:openAnnounce2(19481,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=19481">
+  #<Mechanize::Page::Link
+   "WIA 1 Answer Key"
+   "javascript:openAnnounce2(19286,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=19286">
+  #<Mechanize::Page::Link
+   "ELEN1201 LAB on THURSDAY 6-9 batch"
+   "javascript:openAnnounce2(19274,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=19274">
+  #<Mechanize::Page::Link
+   "Make-up session sequel"
+   "javascript:openAnnounce2(19058,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=19058">
+  #<Mechanize::Page::Link
+   "First Frontiers Seminar in Fairchild 700"
+   "javascript:openAnnounce2(18818,'normal                          ');">
+  #<Mechanize::Page::Link
+   "\n\tDelete"
+   "syllframe.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&syll=yes&announce_kill=18818">}
+ {forms
+  #<Mechanize::Form
+   {name nil}
+   {method "POST"}
+   {action
+    "mycrs/search.cfm?user_key=51146476&whois=00027197-B39E-1F2C-9AE5839950FB8000&RequestTimeout=1800"}
+   {fields
+    [hidden:0x1898fcc type: Hidden name: search value: yes]
+    [text:0x1898e28 type: text name: textval value: By number,title, name]
+    [hidden:0x1898cc0 type: hidden name: textval_required value: Please fill in a course number or course title]}
+   {radiobuttons}
+   {checkboxes}
+   {file_uploads}
+   {buttons [submit:0x1898b1c type: submit name:  value: Go]}>}>

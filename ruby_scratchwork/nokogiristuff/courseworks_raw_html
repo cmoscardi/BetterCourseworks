@@ -1,0 +1,2155 @@
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+	
+
+	
+
+
+
+
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Courseworks: My Courses</title>
+	<link rel="stylesheet" href="mycrs/style/main.css" type="text/css" />
+</head>
+
+<script type="text/javascript" language="Javascript">
+function openHelpGen(){
+	msgwindow = window.open("../help/help_general.cfm","helpwindow1","toolbar=no,menubar=no,scrollbars=yes,width=400,height=400,resizable")
+}
+
+<!--
+function clearBox(box) {
+ if(box.value==box.defaultValue) {
+	 	 box.value = "";  }
+ }
+//-->
+	
+//{	msgwindow = window.open("../help/help_general.cfm?holder=#holder#&user_key=#user_key#&whois=#whois#","helpwindow1","toolbar=no,menubar=no,scrollbars=yes,width=400,height=400,resizable";)
+</script>
+
+
+
+
+	
+
+	
+
+	
+
+
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+
+
+		
+
+
+<body>
+
+
+
+
+
+
+
+
+
+
+<center>
+
+<!-- HEADERBAR -->
+<!-- ## User Navigation -->
+
+<table cellpadding="0" cellspacing="0" border="0" >
+<tr>
+	<td bgcolor="#cccccc" width="1"><img src="mycrs/images/shim.gif" width="1" height="17" alt="" border="0" /></td>
+	<td bgcolor="#2d2a62" width="95" class="headerbar" align="center"><a href="syllframe.cfm?whois=0007F23E-AF63-1F2C-9AE5839950FB8000&user_key=51146312">My Courses</a></td>
+	<td bgcolor="#cccccc" width="1"><img src="mycrs/images/shim.gif" width="1" height="1" alt="" border="0" /></td>
+	<td bgcolor="#2d2a62" width="5"><img src="mycrs/images/shim.gif" width="5" height="1" alt="" border="0" /></td>
+	<td bgcolor="#2d2a62" width="574" class="headerbar" align="left">
+	Christian Leonard Moscardi (Session expires at 02:09 AM) 
+	</td>
+
+	<td bgcolor="#2d2a62" width="50" class="headerbar" align="center"><a href="javascript:openHelpGen();">Help</a> </td><!-- ### Help button -->
+	<td bgcolor="#6699cc" width="65" class="headerbar" align="center"><a href="/cms/enter.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&loggingout=yes"><b>Logout</b></a></td><!-- ### Logout button -->
+	<td bgcolor="#cccccc" width="1"><img src="mycrs/images/shim.gif" width="1" height="1" alt="" border="0" /></td>
+</tr>
+<tr>
+	<td bgcolor="#cccccc" width="1"><img src="mycrs/images/shim.gif" width="1" height="1" alt="" border="0" /></td>
+	<td bgcolor="#ffffff" width="95"><img src="mycrs/images/shim.gif" width="95" height="1" alt="" border="0" /></td>
+	<td bgcolor="#ffffff" width="1"><img src="mycrs/images/shim.gif" width="1" height="1" alt="" border="0" /></td>
+	<td bgcolor="#ffffff" width="5"><img src="mycrs/images/shim.gif" width="5" height="1" alt="" border="0" /></td>
+	<td bgcolor="#ffffff" width="574"><img src="mycrs/images/shim.gif" width="574" height="1" alt="" border="0" /></td>
+	<td bgcolor="#ffffff" width="50"><img src="mycrs/images/shim.gif" width="50" height="1" alt="" border="0" /></td>
+	<td bgcolor="#ffffff" width="65"><img src="mycrs/images/shim.gif" width="60" height="1" alt="" border="0" /></td>
+	<td bgcolor="#cccccc" width="1"><img src="mycrs/images/shim.gif" width="1" height="1" alt="" border="0" /></td>
+</tr>
+</table>
+<!-- ## End User Navigation -->
+<!-- END HEADERBAR -->
+
+
+
+
+<!-- MASTHEAD/LOGO -->
+
+<table cellpadding="0" cellspacing="0" border="0">
+<tr>
+	<td bgcolor="#cccccc" width="1"><img src="mycrs/images/shim.gif" width="1" height="43" alt="" border="0" /></td>
+	<td bgcolor="#ffffff" width="5"><img src="mycrs/images/shim.gif" width="5" height="1" alt="" border="0" /></td>
+	<td bgcolor="#ffffff" width="300" align="left"><img src="mycrs/images/cw_logo.gif" width="273" height="43" alt="" border="0" /></td><!--  CourseWorks logo -->
+	<td bgcolor="#ffffff" width="480" align="right">
+	<form method="post" Action="mycrs/search.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&RequestTimeout=1800">
+	<input type="Hidden" name="search" value="yes">
+		<table border="0" cellspacing="0" cellpadding="1"><!-- ### Search Courses -->
+		<tr>
+		<td bgcolor="#ffffff" align="left"><span style="font-size: 11px;">Search courses:</span></td>
+		</tr>
+		<tr>
+		<td bgcolor="#ffffff" align="left">
+		<input type="text" class="textform" name="textval" size="18" onFocus="clearBox(this);"  value="By number,title, name" / > 
+		<input type="hidden" name="textval_required" value="Please fill in a course number or course title">
+		<input type="submit" value="Go" class="textform"></td>
+		</tr>
+	</table>
+	</form></td><!-- ### End Search Courses -->
+	
+	<td bgcolor="#ffffff" width="5"><img src="mycrs/images/shim.gif" width="5" height="1" alt="" border="0" /></td>
+	<td bgcolor="#cccccc" width="1"><img src="mycrs/images/shim.gif" width="1" height="43" alt="" border="0" /></td>
+</tr>
+<tr>
+	<td bgcolor="#cccccc" width="1"><img src="mycrs/images/shim.gif" width="1" height="1" alt="" border="0" /></td>
+	<td bgcolor="#ffffff" width="5"><img src="mycrs/images/shim.gif" width="5" height="1" alt="" border="0" /></td>
+	<td bgcolor="#ffffff" width="300"><img src="mycrs/images/shim.gif" width="273" height="1" alt="" border="0" /></td>
+	<td bgcolor="#ffffff" width="480"><img src="mycrs/images/shim.gif" width="480" height="1" alt="" border="0" /></td>
+	<td bgcolor="#ffffff" width="5"><img src="mycrs/images/shim.gif" width="5" height="1" alt="" border="0" /></td>
+	<td bgcolor="#cccccc" width="1"><img src="mycrs/images/shim.gif" width="1" height="1" alt="" border="0" /></td>
+</tr>
+</table>
+<!-- END MASTHEAD/LOGO -->
+
+
+
+<!-- BODY -->
+<table cellpadding="0" cellspacing="0" border="0">
+<tr>
+	<td bgcolor="#cccccc" width="792" colspan="4"><img src="mycrs/images/shim.gif" width="792" height="1" alt="" border="0" /></td>
+</tr>
+<tr valign="top">
+	<td bgcolor="#cccccc" width="1"><img src="mycrs/images/shim.gif" width="1" height="1" alt="" border="0" /></td>
+	<!-- LEFT BLUE NAVIGATION BAR -->
+	<td bgcolor="#C0DFFF" width="140"><table border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td bgcolor="#2d2a62" width="10" align="left" class="navcourses"><img src="mycrs/images/nav_on.gif" alt="" width="7" height="17" hspace="0" vspace="0" border="0" /></td>
+			<td bgcolor="#2d2a62" width="130" align="left" class="navcourses"><a href="syllframe.cfm?whois=0007F23E-AF63-1F2C-9AE5839950FB8000&user_key=51146312">Current Courses</a></td>
+		</tr>
+		<tr>
+			<td bgcolor="#314e83" height="1" colspan="2"><img src="mycrs/images/shim.gif" alt="" width="1" height="1" border="0" /></td>
+		</tr>
+		<tr>
+			<td bgcolor="#2d2a62" width="10" align="left" class="navcourses"><img src="mycrs/images/shim.gif" alt="" width="7" height="17" hspace="0" vspace="0" border="0" /></td>
+			<td bgcolor="#2d2a62" width="130" align="left" class="navcourses"><a href="mycrs/next_sem.cfm?whois=0007F23E-AF63-1F2C-9AE5839950FB8000&user_key=51146312">Next Semester</a></td>
+		</tr>
+		<tr>
+			<td bgcolor="#314e83" height="1" colspan="2"><img src="mycrs/images/shim.gif" alt="" width="1" height="1" border="0" /></td>
+		</tr>
+		<tr>
+			<td bgcolor="#2d2a62" width="10" align="left" class="navcourses"><img src="mycrs/images/shim.gif" alt="" width="7" height="17" hspace="0" vspace="0" border="0" /></td>
+			<td bgcolor="#2d2a62" width="130" align="left" class="navcourses"><a href="mycrs/past_sem.cfm?whois=0007F23E-AF63-1F2C-9AE5839950FB8000&user_key=51146312">Past Courses</a></td>
+		</tr>
+		<tr>
+			<td bgcolor="#314e83" height="1" colspan="2"><img src="mycrs/images/shim.gif" alt="" width="1" height="1" border="0" /></td>
+		</tr>
+		<tr>
+			<td bgcolor="#2d2a62" width="10" align="left" class="navcourses"><img src="mycrs/images/shim.gif" alt="" width="7" height="17" hspace="0" vspace="0" border="0" /></td>
+			<td bgcolor="#2d2a62" width="130" align="left" class="navcourses"><a href="mycrs/search.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000">Search Courses</a></td>
+		</tr>
+		<tr>
+			<td bgcolor="#999999" height="1" colspan="2"><img src="mycrs/images/shim.gif" alt="" width="1" height="1" border="0" /></td>
+		</tr>
+		<tr>
+			<td bgcolor="#336699" width="10" align="left" class="navcourses"><img src="mycrs/images/shim.gif" alt="" width="7" height="17" hspace="0" vspace="0" border="0" /></td>
+			<td bgcolor="#336699" width="130" align="left" class="navcourses"><a href="mycrs/user_info.cfm?whois=0007F23E-AF63-1F2C-9AE5839950FB8000&user_key=51146312">User Information</a></td>
+		</tr>
+		
+		
+		<tr>
+			<td bgcolor="#5285b8" height="1" colspan="2"><img src="mycrs/images/shim.gif" alt="" width="1" height="1" border="0" /></td>
+		</tr>
+		<tr>
+			<td bgcolor="#336699" width="10" align="left" class="navcourses"><img src="mycrs/images/shim.gif" alt="" width="7" height="17" hspace="0" vspace="0" border="0" /></td>
+			<td bgcolor="#336699" width="130" align="left" class="navcourses"><a href="https://www1.columbia.edu/sec-cgi-bin/cul/respac/respac" target="_new">My Libr. Reserves</a></td>
+		</tr>
+		
+				
+		<tr>
+			<td bgcolor="#5285b8" height="1" colspan="2"><img src="mycrs/images/shim.gif" alt="" width="1" height="1" border="0" /></td>
+		</tr>
+		<tr>
+			<td bgcolor="#336699" width="10" align="left" class="navcourses"><img src="mycrs/images/shim.gif" alt="" width="7" height="17" hspace="0" vspace="0" border="0" /></td>
+			<td bgcolor="#336699" width="130" align="left" class="navcourses"><a href="mycrs/myeval.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000">My Evaluations</a></td>
+		</tr>
+		
+		
+		
+		
+		
+		<tr><!-- ### Last closing line -->
+			<td bgcolor="#333366" height="1" colspan="2"><img src="mycrs/images/shim.gif" alt="" width="1" height="1" border="0" /></td>
+		</tr><!-- ### Last closing line -->
+	</table></td>
+	<!-- END LEFT BLUE NAVIGATION BAR -->
+	<td bgcolor="#ffffff" width="650" valign="top"><table border="0" cellspacing="0" cellpadding="0">
+		<tr><!-- ### Page title -->
+			<td bgcolor="#cccccc" width="1"><img src="mycrs/images/shim.gif" width="1" height="1" alt="" border="0" /></td>
+			<td bgcolor="#e0e0e0" width="649" align="left"><img src="mycrs/images/current.png" alt="" width="385" height="33" border="0" /></td>
+		</tr><!-- ### Page title -->
+		<tr>
+			<td bgcolor="#cccccc" width="1"><img src="mycrs/images/shim.gif" width="1" height="1" alt="" border="0" /></td>
+			<td bgcolor="#cccccc" width="649"><img src="mycrs/images/shim.gif" width="1" height="1" alt="" border="0" /></td>
+		</tr>
+	
+	</table>
+	<table border="0" cellspacing="0" cellpadding="0">
+		<tr valign="top">
+			<td bgcolor="#cccccc" width="1"><img src="mycrs/images/shim.gif" width="1" height="1" alt="" border="0" /></td>
+			<td bgcolor="#ffffff" width="10"><img src="mycrs/images/shim.gif" alt="" width="10" height="1" border="0" /></td>
+			<td bgcolor="#ffffff" width="453">
+<br />
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+		<td bgcolor="#336699"><table border="0" cellspacing="1" cellpadding="3" width="100%">
+	<tr>
+		<th colspan="3" bgcolor="#e0e0e0" class="coursetable">Spring 2012 Course Sites<br />
+
+	</tr>
+	<tr>
+		<th bgcolor="#e0e0e0" class="coursetable">Course Number</th>
+		<th bgcolor="#e0e0e0" class="coursetable">Course Title</th>
+		
+			<th bgcolor="#e0e0e0" class="coursetable">Instructor</th>
+		
+		
+	</tr>
+
+
+
+
+
+
+
+
+
+
+	
+	
+		 
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		 
+
+
+	
+	
+	
+	
+	
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+	
+	
+	
+	 
+		
+	
+		
+		
+	
+	
+
+		
+		
+		
+
+	<tr>
+		<td bgcolor="#ffffff" nowrap="nowrap" class="courselisting">
+		 
+		<a href="framesets/frameset.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&iruyxd=128657130&lkjrty=93&selected=syllabus" onmouseover="self.status='Enter COMS W3261.001.2012.1'; return true" onmouseout="self.status=''">COMS W3261.001.2012.1</a>
+		
+		<br>
+		    
+				 
+				  
+				  
+				  
+				  
+				  
+				 	 
+		
+</td>
+		<td bgcolor="#ffffff" class="courselisting"> COMPUTER SCIENCE THEORY
+			
+			</td>
+		
+		
+			<td bgcolor="#ffffff" class="courselisting">
+			
+			Tal G.  Malkin			
+			</td>
+		
+				
+	</tr>
+	
+
+
+	
+	
+		 
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		 
+
+
+	
+	
+	
+	
+	
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+	
+	
+	
+	 
+		
+	
+		
+		
+	
+	
+
+		
+		
+		
+
+	<tr>
+		<td bgcolor="#ffffff" nowrap="nowrap" class="courselisting">
+		 
+		<a href="framesets/frameset.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&iruyxd=128655177&lkjrty=93&selected=syllabus" onmouseover="self.status='Enter COMS W3137.001.2012.1'; return true" onmouseout="self.status=''">COMS W3137.001.2012.1</a>
+		
+		<br>
+		    
+				 
+				  
+				  
+				  
+				  
+				  
+				 	 
+		
+</td>
+		<td bgcolor="#ffffff" class="courselisting"> DATA STRUCTURES/ALGORITHMS
+			
+			</td>
+		
+		
+			<td bgcolor="#ffffff" class="courselisting">
+			
+			Peter K.  Allen			
+			</td>
+		
+				
+	</tr>
+	
+
+
+	
+	
+		 
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		 
+
+
+	
+	
+	
+	
+	
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+	
+	
+	
+	 
+		
+	
+		
+		
+	
+	
+
+		
+		
+		
+
+	<tr>
+		<td bgcolor="#ffffff" nowrap="nowrap" class="courselisting">
+		 
+		<a href="framesets/frameset.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&iruyxd=128401287&lkjrty=93&selected=syllabus" onmouseover="self.status='Enter HIST X3116.001.2012.1'; return true" onmouseout="self.status=''">HIST X3116.001.2012.1</a>
+		
+		<br>
+		    
+				 
+				  
+				  
+				  
+				  
+				  
+				 	 
+		
+</td>
+		<td bgcolor="#ffffff" class="courselisting"> FILTHY LUCRE: A HIST OF MONEY
+			
+			</td>
+		
+		
+			<td bgcolor="#ffffff" class="courselisting">
+			
+			Carl C.  Wennerlind			
+			</td>
+		
+				
+	</tr>
+	
+
+
+	
+	
+		 
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		 
+
+
+	
+	
+	
+	
+	
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+	
+	
+	
+	 
+		
+	
+		
+		
+	
+	
+
+		
+		
+		
+
+	<tr>
+		<td bgcolor="#ffffff" nowrap="nowrap" class="courselisting">
+		 
+		<a href="https://newcourseworks.columbia.edu/portal/site/MECEE3998_003_2012_1" target="_blank">MECE E3998.003.2012.1</a><img src="../images/gui/syllframe/new.GIF" width="30" height="30" alt="NCW course" border="0" onmouseover="This course linked to New Courseworks" align="absmiddle">
+		
+		
+		
+		<br>
+		    
+				 
+				  
+				  
+				  
+				  
+				  
+				 	 
+		
+</td>
+		<td bgcolor="#ffffff" class="courselisting"> PROJECTS IN MECH ENGINEERING
+			
+			</td>
+		
+		
+			<td bgcolor="#ffffff" class="courselisting">
+			
+			Fred R.  Stolfi			
+			</td>
+		
+				
+	</tr>
+	
+
+
+	
+	
+		 
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		 
+
+
+	
+	
+	
+	
+	
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+	
+	
+	
+	 
+		
+	
+		
+		
+	
+	
+
+		
+		
+		
+
+	<tr>
+		<td bgcolor="#ffffff" nowrap="nowrap" class="courselisting">
+		 
+		<a href="framesets/frameset.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&iruyxd=126586950&lkjrty=93&selected=syllabus" onmouseover="self.status='Enter MATH W4053.001.2012.1'; return true" onmouseout="self.status=''">MATH W4053.001.2012.1</a>
+		
+		<br>
+		    
+				 
+				  
+				  
+				  
+				  
+				  
+				 	 
+		
+</td>
+		<td bgcolor="#ffffff" class="courselisting"> INTRO TO ALGEBRAIC TOPOLOGY
+			
+			</td>
+		
+		
+			<td bgcolor="#ffffff" class="courselisting">
+			
+			Adam  Knapp			
+			</td>
+		
+				
+	</tr>
+	
+
+
+	
+	
+		 
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		 
+
+
+	
+	
+	
+	
+	
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+	
+	
+	
+	 
+		
+	
+		
+		
+	
+	
+
+		
+		
+		
+
+	<tr>
+		<td bgcolor="#ffffff" nowrap="nowrap" class="courselisting">
+		 
+		<a href="framesets/frameset.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&iruyxd=126585648&lkjrty=93&selected=syllabus" onmouseover="self.status='Enter MATH W4042.001.2012.1'; return true" onmouseout="self.status=''">MATH W4042.001.2012.1</a>
+		
+		<br>
+		    
+				 
+				  
+				  
+				  
+				  
+				  
+				 	 
+		
+</td>
+		<td bgcolor="#ffffff" class="courselisting"> INTRO TO MODERN ALGEBRA II
+			
+			</td>
+		
+		
+			<td bgcolor="#ffffff" class="courselisting">
+			
+			Robert  Friedman			
+			</td>
+		
+				
+	</tr>
+	
+
+
+	
+	
+		 
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		
+  			 
+			 
+			
+		 
+
+
+	
+	
+	
+	
+	
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+	
+	
+	
+	 
+		
+	
+		
+		
+	
+	
+
+		
+		
+		
+
+	<tr>
+		<td bgcolor="#ffffff" nowrap="nowrap" class="courselisting">
+		 
+		<a href="framesets/frameset.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&iruyxd=125670993&lkjrty=93&selected=syllabus" onmouseover="self.status='Enter COCI C1102.056.2012.1'; return true" onmouseout="self.status=''">COCI C1102.056.2012.1</a>
+		
+		<br>
+		    
+				 
+				  
+				  
+				  
+				  
+				  
+				 	 
+		
+</td>
+		<td bgcolor="#ffffff" class="courselisting"> CONTEMP WESTRN CIVILIZATION I
+			
+			</td>
+		
+		
+			<td bgcolor="#ffffff" class="courselisting">
+			
+			Roosevelt  Montas			
+			</td>
+		
+				
+	</tr>
+	
+ 
+	
+	<tr>
+		<th colspan="3" bgcolor="#e0e0e0" class="coursetable">
+		Reflects Registrar changes through Feb-03-2012 01:49:00AM </th>
+	</tr>
+	
+		
+	
+	
+	
+
+	
+	
+	
+	
+	
+</table>
+</td>
+	</tr>
+</table>
+			<br />
+			</td>
+			<td bgcolor="#ffffff" width="10"><img src="mycrs/images/shim.gif" alt="" width="10" height="1" border="0" /></td>
+			<td bgcolor="#cccccc" width="1"><img src="mycrs/images/shim.gif" width="1" height="1" alt="" border="0" /></td>
+			<td bgcolor="#ffffff" width="5"><img src="mycrs/images/shim.gif" alt="" width="5" height="1" border="0" /></td>
+			<td bgcolor="#ffffff" width="165">
+<br />
+<div style="font-style:italic;font-weight:bold;color:#336699;">
+<a href="https://newcourseworks.columbia.edu/welcome" target="_blank" style="text-decoration:none;color:#336699;" title="go to NewCourseWorks"><img src="../images/gui/syllframe/new.GIF" width="30" height="30" alt="NCW course" border="0" onmouseover="New Courseworks" align="absmiddle">CourseWorks</a>
+</div><br />
+Transition to NCW has begun starting Term Fall'11<br /><br />
+&nbsp;&nbsp;<a href="https://newcourseworks.columbia.edu/welcome/faculty.html" target="_blank" title="go to NCW Faculty Resources">Faculty Resources</a><br /><br />
+&nbsp;&nbsp;<a href="https://newcourseworks.columbia.edu/welcome/students.html" target="_blank" title="go to NCW Student Resources">Student Resouces</a>
+<br /><br />
+			
+						
+			  
+<script type="text/javascript" language="Javascript">
+	<!--
+	function openAnnounce(announce_pk, announcetype)
+	{	msgwindow = window.open("../announce.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_pk=" + announce_pk + "&announcetype=" + announcetype,"announcewindow","toolbar=no,menubar=no,scrollbars=yes,width=350,height=300,resizable")
+	}
+
+	function openAnnounce2(announce_pk, announcetype)
+	{	msgwindow = window.open("announce.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_pk=" + announce_pk + "&announcetype=" + announcetype,"announcewindow","toolbar=no,menubar=no,scrollbars=yes,width=350,height=300,resizable")
+	}
+	
+	function show_hide(){
+	
+	elem = document.getElementById("show0");
+	stl = elem.style;
+	document.getElementById("showhide").innerHTML = (stl.display==''||stl.display=='block')?'Show past semester announcements':'<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0"><br>Hide past semester announcements';
+	stl.display = (stl.display==''||stl.display=='block')?'none':'block';
+	}
+	//-->
+	</script>
+
+	
+
+
+
+
+
+
+<p class="announcements">Course Announcements</p>
+
+<div style="font-size:smaller;">(Current semester)</div>
+
+
+<p class="smalltxt">
+
+	
+	<div id="show1" style="display:block;">
+	
+	
+		
+			<a href="javascript:openAnnounce2(25803,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Piazza</a>
+			(02-Feb-12)	(DATA STRUCTURES/ALGORITHMS   ) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25803" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(25779,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Piazza Board</a>
+			(01-Feb-12)	(DATA STRUCTURES/ALGORITHMS   ) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25779" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(25751,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Homework 2 submission</a>
+			(30-Jan-12)	(COMPUTER SCIENCE THEORY      ) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25751" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+</div>
+	
+	<div id="show0" style="display:none;">
+	<div style="font-size:smaller;">(Past semester)</div><br>
+	
+		
+			<a href="javascript:openAnnounce2(25474,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Office hours for this Thursday and Friday</a>
+			(15-Dec-11)	(INTRO-COMBINATORICS/GRAPH THR) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25474" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(25473,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Office hours for this Thursday and Friday</a>
+			(15-Dec-11)	(INTRO-COMBINATORICS/GRAPH THR) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25473" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(25456,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Office hours for this Thursday and Friday (Summary)</a>
+			(15-Dec-11)	(INTRO-COMBINATORICS/GRAPH THR) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25456" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(25450,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Office Hours</a>
+			(14-Dec-11)	(INTRO-COMBINATORICS/GRAPH THR) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25450" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(25284,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">My office hours for this week and the next.</a>
+			(01-Dec-11)	(INTRO-COMBINATORICS/GRAPH THR) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25284" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(25155,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">COMS W3203: HW4 returned in class tomorrow.</a>
+			(20-Nov-11)	(INTRO-COMBINATORICS/GRAPH THR) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25155" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(25154,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">COMS W3203: HW4 returned in class tomorrow.</a>
+			(20-Nov-11)	(INTRO-COMBINATORICS/GRAPH THR) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25154" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(25134,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Office hours tomorrow.</a>
+			(18-Nov-11)	(INTRO-COMBINATORICS/GRAPH THR) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25134" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(25114,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Recounting Quiz2</a>
+			(16-Nov-11)	(INTRO-COMBINATORICS/GRAPH THR) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25114" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(25106,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">office hours</a>
+			(16-Nov-11)	(FUNDAMENTALS OF COMPUTER SYST) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25106" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(25086,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">QUIZ2 UPLOADED</a>
+			(14-Nov-11)	(INTRO-COMBINATORICS/GRAPH THR) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25086" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(25075,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">office hours 11/14/2011</a>
+			(14-Nov-11)	(FUNDAMENTALS OF COMPUTER SYST) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=25075" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(24952,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Changing my office hours tomorrow.</a>
+			(03-Nov-11)	(INTRO-COMBINATORICS/GRAPH THR) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24952" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(24951,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">CS W3827 office hr location</a>
+			(03-Nov-11)	(FUNDAMENTALS OF COMPUTER SYST) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24951" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(24850,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Changing office hour</a>
+			(27-Oct-11)	(FUNDAMENTALS OF COMPUTER SYST) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24850" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(24827,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">HW2</a>
+			(26-Oct-11)	(INTRO-COMBINATORICS/GRAPH THR) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24827" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(24763,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">office hours tomorrow</a>
+			(23-Oct-11)	(FUNDAMENTALS OF COMPUTER SYST) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24763" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(24739,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">office hours </a>
+			(20-Oct-11)	(FUNDAMENTALS OF COMPUTER SYST) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24739" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(24725,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">CSEE W3827: Office Hour Change</a>
+			(20-Oct-11)	(FUNDAMENTALS OF COMPUTER SYST) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24725" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(24655,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">QUIZ1 Facts:</a>
+			(17-Oct-11)	(INTRO-COMBINATORICS/GRAPH THR) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24655" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(24653,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">QUIZ1 Graded</a>
+			(17-Oct-11)	(INTRO-COMBINATORICS/GRAPH THR) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24653" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(24519,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">office hours 10/17</a>
+			(06-Oct-11)	(FUNDAMENTALS OF COMPUTER SYST) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24519" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(24506,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Regarding HW1, and my OH this week.</a>
+			(06-Oct-11)	(INTRO-COMBINATORICS/GRAPH THR) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24506" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(24421,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">My office hours for tomorrow is cancelled.</a>
+			(29-Sep-11)	(INTRO-COMBINATORICS/GRAPH THR) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24421" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(24216,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Office Hours 9/19/2011</a>
+			(19-Sep-11)	(FUNDAMENTALS OF COMPUTER SYST) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24216" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(24107,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">W3827 Office hour change for this week</a>
+			(13-Sep-11)	(FUNDAMENTALS OF COMPUTER SYST) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=24107" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(23639,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Office hour</a>
+			(09-May-11)	(Introduction to Computer Science and Programming in Java) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=23639" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(23608,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">COMS1004 Cancelled Office Hours</a>
+			(06-May-11)	(Introduction to Computer Science and Programming in Java) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=23608" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(23607,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Office Hours Today</a>
+			(06-May-11)	(Introduction to Computer Science and Programming in Java) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=23607" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(23594,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">COMS1004 Office Hours Postpone</a>
+			(05-May-11)	(Introduction to Computer Science and Programming in Java) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=23594" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(23580,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Change of OH again</a>
+			(05-May-11)	(Introduction to Computer Science and Programming in Java) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=23580" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(23529,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Preponed TA hours & Updating Courseworks Grade</a>
+			(03-May-11)	(Introduction to Computer Science and Programming in Java) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=23529" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(23520,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Change of OH this week</a>
+			(03-May-11)	(Introduction to Computer Science and Programming in Java) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=23520" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(23433,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Office Hours Rescheduled</a>
+			(27-Apr-11)	(Introduction to Computer Science and Programming in Java) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=23433" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(22986,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">COMS W1004.001 - Office Hours</a>
+			(02-Apr-11)	(Introduction to Computer Science and Programming in Java) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22986" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(22968,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">COMS W1004.001 - Office Hours Cancelled</a>
+			(01-Apr-11)	(Introduction to Computer Science and Programming in Java) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22968" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(22869,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">COMS 1004 Office Hours TODAY</a>
+			(25-Mar-11)	(Introduction to Computer Science and Programming in Java) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22869" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(22861,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">COMS 1004 Office Hours</a>
+			(25-Mar-11)	(Introduction to Computer Science and Programming in Java) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22861" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(22826,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">COMS 1004 Office Hours</a>
+			(24-Mar-11)	(Introduction to Computer Science and Programming in Java) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22826" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(22643,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">COMS!004 Cancelled Office Hours</a>
+			(10-Mar-11)	(Introduction to Computer Science and Programming in Java) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22643" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(22639,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">My office hours are cancelled tomorrow</a>
+			(09-Mar-11)	(Introduction to Computer Science and Programming in Java) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22639" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(22612,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">OHs Wednesday Morning</a>
+			(08-Mar-11)	(PRINCIPLES OF ECONOMICS      ) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22612" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(22342,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">COMS 1004 TA hours (Disregard previous email)</a>
+			(24-Feb-11)	(Introduction to Computer Science and Programming in Java) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22342" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(22341,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">COMS 1004 Office Hours</a>
+			(24-Feb-11)	(Introduction to Computer Science and Programming in Java) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22341" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(22114,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Office Hour Change</a>
+			(15-Feb-11)	(Introduction to Computer Science and Programming in Java) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=22114" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(21917,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">TA Office Hours</a>
+			(08-Feb-11)	(Introduction to Computer Science and Programming in Java) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=21917" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(21214,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">files posted</a>
+			(14-Dec-10)	(Frontiers of Science Discussion - Section 14) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=21214" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(20993,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">files posted</a>
+			(05-Dec-10)	(Frontiers of Science Discussion - Section 14) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=20993" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(20550,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Midterm Key</a>
+			(11-Nov-10)	(Frontiers of Science Discussion - Section 14) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=20550" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(20196,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Quiz and WIA keys</a>
+			(27-Oct-10)	(Frontiers of Science Discussion - Section 14) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=20196" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(19853,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Key for Astro 1 WIA</a>
+			(14-Oct-10)	(Frontiers of Science Discussion - Section 14) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=19853" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(19672,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">BB Quiz Key</a>
+			(06-Oct-10)	(Frontiers of Science Discussion - Section 14) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=19672" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(19481,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">term assignment info</a>
+			(29-Sep-10)	(Frontiers of Science Discussion - Section 14) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=19481" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(19286,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">WIA 1 Answer Key</a>
+			(23-Sep-10)	(Frontiers of Science Discussion - Section 14) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=19286" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(19274,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">ELEN1201 LAB on THURSDAY 6-9 batch</a>
+			(22-Sep-10)	(INTRO-ELECTRICAL ENGINEERING ) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=19274" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(19058,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">Make-up session sequel</a>
+			(15-Sep-10)	(INTRODUCTION TO LINGUISTICS  ) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=19058" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+			
+				<img src="mycrs/images/sidebardivider.gif" width="165" height="7" alt="" border="0">
+			
+		
+
+		
+			<a href="javascript:openAnnounce2(18818,'normal                          ');"  onmouseover="self.status='Read this Announcement'; return true" onmouseout="self.status=''">First Frontiers Seminar in Fairchild 700</a>
+			(03-Sep-10)	(Frontiers of Science Discussion - Section 14) <A HREF="syllframe.cfm?user_key=51146312&whois=0007F23E-AF63-1F2C-9AE5839950FB8000&syll=yes&announce_kill=18818" onMouseOver = " self.status='Delete this Announcement'; return true;" onMouseOut = " self.status=''; return true;">
+	<IMG SRC="../../images/clear.gif" BORDER="0" WIDTH="55" HEIGHT="20"><FONT  FACE="Arial, Helvetica" SIZE="-1" color="#0000FF" ><FONT COLOR="RED">Delete</FONT></FONT></A>
+			
+		
+		
+		
+
+</div>
+	
+
+<div id="showhide" style="font-size:smaller;cursor:pointer;" onMouseOver="this.style.color='blue'"
+        onMouseOut="this.style.color='black'" onClick="show_hide()">Show past semester announcements
+</div>
+
+</p>
+
+
+
+
+
+<p class="smalltxt">
+<img src="mycrs/images/sidebardivider.gif" alt="" width="165" height="7" border="0" />
+<img src="images/sidebardivider.gif" alt="" width="165" height="7" border="0" />
+</p>
+
+ 	
+	
+	
+
+
+ 
+      
+    
+ 
+
+
+	
+
+
+
+
+ 
+   
+
+
+<br /><br />
+			</td>
+			<td bgcolor="#ffffff" width="5"><img src="mycrs/images/shim.gif" alt="" width="5" height="1" border="0" /></td>
+		</tr>
+	</table>
+	</td>
+	<td bgcolor="#cccccc" width="1"><img src="mycrs/images/shim.gif" width="1" height="1" alt="" border="0" /></td>
+</tr>
+<tr>
+	<td bgcolor="#cccccc" width="792" colspan="4"><img src="mycrs/images/shim.gif" width="792" height="1" alt="" border="0" /></td>
+</tr>
+</table>
+<!-- END BODY -->
+
+
+
+
+</center>
+</body>
+</html>

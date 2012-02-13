@@ -1,0 +1,7 @@
+require 'nokogiri'
+require 'net/HTTP'
+require 'uri'
+
+uri = URI.parse("http://courseworks.columbia.edu/cms/enter.cfm"
+
+response = Net::HTTP.get_response(uri)
