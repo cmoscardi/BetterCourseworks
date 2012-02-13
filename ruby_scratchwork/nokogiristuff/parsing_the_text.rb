@@ -10,12 +10,14 @@ i=0
 courses=[]
 #print i
 elements.each do |element|
-  print "#{i}:  "
+  #print "#{i}:  "
 
   if i%3 == 0
     coursenumber = i/3
-    courses[i/3]={:name => "", :instructor => ""}
-    puts element
+    courses[i/3]={:name => "", :instructor => "", :call_number=> ""}
+    title = /[A-Z]{4}\s[A-Z](\d{4}).(\d{3}).(\d{4}).\d/.match(element.to_s)
+    courses[i/3][:call_number]=title.to_s.strip
+
   elsif i%3 == 1
     class_name = /([A-Z]+\S?\s?)+$/.match(element.to_s)
 
@@ -29,6 +31,7 @@ elements.each do |element|
   end
   i+=1
 end
+puts courses
 
 
 
