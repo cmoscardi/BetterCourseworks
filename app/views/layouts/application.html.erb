@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BetterCourseworks</title>
-  <%= stylesheet_link_tag :all %>
+  <title><%= title %></title>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
 <body>
+<%= render 'layouts/header' %>
 
 <%= yield %>
 
+<%= render 'layouts/footer' %>
 </body>
 </html>
