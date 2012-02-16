@@ -1,7 +1,12 @@
 BetterCourseworks::Application.routes.draw do
- 
+  get "courses/new"
+
+  get "users/new"
+
+  resources :sessions, :only => [:new, :create, :destroy]
+
   root :to => 'pages#home'
- 
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
