@@ -4,6 +4,7 @@ BetterCourseworks::Application.routes.draw do
   get "users/new"
 
   resources :sessions, :only => [:new, :create, :destroy]
+  resources :users
 
   root :to => 'pages#home'
   
