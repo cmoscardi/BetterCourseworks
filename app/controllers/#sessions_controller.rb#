@@ -1,7 +1,7 @@
 class SessionsController < ApplicationController
   include SessionsHelper
   def new
-    render 'pages/home'
+    render 'pages/home
   end
 
   def create
@@ -12,7 +12,7 @@ class SessionsController < ApplicationController
       front_page = user_login(uni,password)
        if front_page.nil? 
         flash.now[:error]="Something has gone horribly wrong"
-        render 'pages/home'
+        render root_path
       else
         course_data = parse_front_page(front_page)
         @user = User.create!(:uni => uni)
